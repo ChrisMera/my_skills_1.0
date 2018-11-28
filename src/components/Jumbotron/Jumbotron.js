@@ -6,7 +6,10 @@ const jumbotron = ( props ) => {
   return (
     <>
       <header className={style.Header}>
-        <h1 className={style.HeaderText}>My Skills Tailored <br />Resume Builder</h1>
+        <h1 className={style.HeaderText}>
+          My Skills Tailored <br />
+          Resume Builder
+        </h1>
       </header>
     </>
   )

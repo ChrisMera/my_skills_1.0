@@ -13,15 +13,21 @@
 
 .HeaderText {
   position: relative;
-  top: 650px;
+  top: 635px;
   left: 200px;
-  font-size: 55px;
+  font-size: 65px;
   text-align: center;
-  padding: 80px 50px;
+  padding: 80px 10px;
   color: #e9ede7;
-  background: rgba(10, 10, 10, 0.6);
-  /* border: 1px solid red; */
+  background: rgba(83, 150, 182, 0.8);
   width: 30%;
-  /* background: 
-    linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)); */
+}
+
+@media screen and (max-width: 1805px) {
+  .HeaderText {
+    position: relative;
+    top: 635px;
+    left: 200px;
+    font-size: 60px;
+  }
 }
