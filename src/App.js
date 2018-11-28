@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+
 import './App.module.css';
-import Navigation from '../components/Nav/Nav';
+import Splash from './containers/Splash/Splash';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation />
+        <Splash />
       </div>
     );
   }
