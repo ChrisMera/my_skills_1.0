@@ -19,6 +19,13 @@
   padding: 0;
 }
 
+@media screen and (max-width: 767px) {
+  .Box2 {
+    margin-top: -100px;
+  }
+}
+
+
 @media screen and (min-width: 150px) {
   .HeaderTextStyle {
     position: relative;
@@ -146,3 +153,4 @@
     margin-top: 40px;
   }
 }
+
