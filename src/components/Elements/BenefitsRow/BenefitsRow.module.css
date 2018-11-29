@@ -10,3 +10,19 @@
 .pTextStyle {
   font-size: 18px;
 }
+
+@media screen and (max-width: 768px) {
+  .Box {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .h4TextStyle {
+    margin: 10px 0;
+    font-size: 30px;
+  }
+
+  .pTextStyle {
+    font-size: 18px;
+  }
+}
