@@ -9,7 +9,6 @@ const GetStartedRow = (props) => {
       <Row>
         <Col xs='12' className={style.Box}>
         <h2 className={style.h2TextStyle}>Try My Skills tailored resume builder today</h2>
-        
         <Button className={style.ButtonStyle}>GET STARTED</Button>
         </Col>
       </Row>
