@@ -3,14 +3,44 @@
   margin-top: 70px;
 }
 
-.h2TextStyle {
-  text-align: center;
-  font-size: 37px;
-  color: #323648; 
+@media screen and (min-width: 150px) { 
+  .h2TextStyle {
+    text-align: center;
+    font-size: 33px;
+    color: #323648; 
+  }
+
+  .pTextStyle {
+    font-size: 18px;
+    text-align: center;
+    color: #323648; 
+  }
 }
 
-.pTextStyle {
-  font-size: 22px;
-  text-align: center;
-  color: #323648; 
+@media screen and (min-width: 464px) { 
+  .h2TextStyle {
+    text-align: center;
+    font-size: 35px;
+    color: #323648; 
+  }
+
+  .pTextStyle {
+    font-size: 20px;
+    text-align: center;
+    color: #323648; 
+  }
+}
+
+@media screen and (min-width: 768px) { 
+  .h2TextStyle {
+    text-align: center;
+    font-size: 37px;
+    color: #323648; 
+  }
+
+  .pTextStyle {
+    font-size: 22px;
+    text-align: center;
+    color: #323648; 
+  }
 }
