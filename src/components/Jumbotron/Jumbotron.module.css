@@ -14,7 +14,7 @@
   font-family: 'Great Vibes', cursive;
   font-size: 80px;
   margin-left: 40px;
-  
+  color: #e9ede7;
 }
 
 .Header {
@@ -31,7 +31,7 @@
 }
 
 .Box {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 40px;
 }
 .Box2 {

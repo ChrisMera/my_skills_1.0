@@ -37,7 +37,8 @@ time, mark, audio, video {
 	font-size: 100%;
   font: inherit;
   font-family: "Raleway", "sans-serif";
-	vertical-align: baseline;
+  vertical-align: baseline;
+  color: #323648; 
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
