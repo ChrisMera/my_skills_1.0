@@ -5,7 +5,6 @@ import style from './Jumbotron.module.css';
 
 const jumbotron = ( props ) => {
   return (
-    <>
     <Container className={style.Box}>
       <Row>
         <Col xs='12' md='3' className={style.Box2}>
@@ -18,7 +17,6 @@ const jumbotron = ( props ) => {
         </Col>
       </Row>
     </Container>
-    </>
   )
 };
 

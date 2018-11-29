@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Jumbotron from '../../components/Jumbotron/Jumbotron';
+import InfoRow from '../../components/Elements/InfoRow/InfoRow';
 
 class Splash extends Component {
   state = {
@@ -11,6 +12,7 @@ class Splash extends Component {
     return (
       <>
         <Jumbotron />
+        <InfoRow />
       </>
     )
   }

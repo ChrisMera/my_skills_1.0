@@ -1,0 +1,16 @@
+.Box {
+  border: 1px solid red;
+  margin-top: 40px;
+}
+
+.h2TextStyle {
+  text-align: center;
+  font-size: 37px;
+  color: #323648; 
+}
+
+.pTextStyle {
+  font-size: 22px;
+  text-align: center;
+  color: #323648; 
+}
