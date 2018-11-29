@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Jumbotron from '../../components/Jumbotron/Jumbotron';
 import InfoRow from '../../components/Elements/InfoRow/InfoRow';
 import BenefitsRow from '../../components/Elements/BenefitsRow/BenefitsRow';
+import GetStartedRow from '../../components/Elements/GetStartedRow/GetStartedRow';
 
 class Splash extends Component {
   state = {
@@ -15,6 +16,7 @@ class Splash extends Component {
         <Jumbotron />
         <InfoRow />
         <BenefitsRow />
+        <GetStartedRow />
       </>
     )
   }
