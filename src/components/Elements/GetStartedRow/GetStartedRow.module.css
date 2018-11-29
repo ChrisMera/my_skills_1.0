@@ -1,9 +1,8 @@
 .Box {
-  /* border: 1px solid blue; */
   margin-top: 60px;
   background-color: #183349;
   text-align: center;
-  padding: 50px 0px;
+  padding: 40px 0px;
 }
 
 .h2TextStyle {
@@ -20,4 +19,15 @@
 
 .ButtonStyle:hover {
   font-weight: 500;
+}
+
+@media screen and (max-width: 991px) {
+  .Box {
+    margin-top: 40px;
+    padding: 30px 0px;
+  }
+
+  .h2TextStyle {
+    font-size: 30px;
+  }
 }
