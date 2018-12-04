@@ -38,10 +38,10 @@ class Navigation extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#">Sign Up</NavLink>
+                <NavLink href="#">Sign In</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Login</NavLink>
+                <NavLink href="#">Get Started</NavLink>
               </NavItem>
               {/* <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
