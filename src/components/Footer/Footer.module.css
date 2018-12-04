@@ -1,0 +1,12 @@
+.Footer{
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #17334a;
+  height: 60px;
+}
+
+.GithubLink {
+  color: #17334a;
+}

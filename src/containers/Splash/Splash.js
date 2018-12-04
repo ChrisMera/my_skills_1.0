@@ -6,6 +6,7 @@ import InfoRow from '../../components/Elements/InfoRow/InfoRow';
 import BenefitsRow from '../../components/Elements/BenefitsRow/BenefitsRow';
 import GetStartedRow from '../../components/Elements/GetStartedRow/GetStartedRow';
 import AboutRow from '../../components/Elements/AboutRow/AboutRow';
+import Footer from '../../components/Footer/Footer';
 
 class Splash extends Component {
   state = {
@@ -21,6 +22,7 @@ class Splash extends Component {
         <BenefitsRow />
         <GetStartedRow />
         <AboutRow />
+        <Footer />
       </>
     )
   }
