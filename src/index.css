@@ -36,6 +36,11 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
   font: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-family: "Raleway", "sans-serif";
   vertical-align: baseline;
   color: #323648; 
@@ -65,3 +70,4 @@ table {
 	border-spacing: 0;
 }
 /* End Meyer Reset */
+
