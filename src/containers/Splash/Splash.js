@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Nav from '../../components/Nav/Nav';
 import Jumbotron from '../../components/Jumbotron/Jumbotron';
 import InfoRow from '../../components/Elements/InfoRow/InfoRow';
 import BenefitsRow from '../../components/Elements/BenefitsRow/BenefitsRow';
@@ -14,6 +15,7 @@ class Splash extends Component {
   render () {
     return (
       <>
+        <Nav />
         <Jumbotron />
         <InfoRow />
         <BenefitsRow />
