@@ -9,10 +9,6 @@ import AboutRow from '../../components/Elements/AboutRow/AboutRow';
 import Footer from '../../components/Footer/Footer';
 
 class Splash extends Component {
-  state = {
-    isAuth: false
-  }
-
   render () {
     return (
       <>

@@ -8,7 +8,7 @@ const AboutRow = (props) => {
     <Container>
       <Row>
         <Col xs='12' md='2'className={style.Box}>
-          "Logo Link"
+          <img alt='Logo' src={require('../../../favicon-64.png')} />
         </Col>
         <Col xs='12' md='2'className={style.Box}>
         </Col>

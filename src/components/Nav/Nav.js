@@ -7,11 +7,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
+  NavLink
 } from 'reactstrap';
 import styles from './Nav.module.css';
 
@@ -33,7 +29,7 @@ class Navigation extends Component {
     return (
       <>
         <Navbar className={styles.Nav} light expand="md">
-          <NavbarBrand href="/">*Logo*</NavbarBrand>
+          <NavbarBrand href="/"><img alt='Logo' src={require('../../favicon-64.png')} /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

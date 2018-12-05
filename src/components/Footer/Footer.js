@@ -1,19 +1,5 @@
 import React, { Component } from 'react';
 
-import {
-  Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
-} from 'reactstrap';
-
 import styles from './Footer.module.css';
 
 class Footer extends Component {
@@ -34,7 +20,7 @@ class Footer extends Component {
     return (
       <>
         <footer className={styles.Footer}>
-          <p>©2018 Chris Mera | <a className={styles.GithubLink} href="https://github.com/ChrisMera/my_skills_1.0" target="_blank">Github
+          <p>©2018 Chris Mera | <a className={styles.GithubLink} href="https://github.com/ChrisMera/my_skills_1.0" target="_blank" rel="noopener noreferrer">Github
           Repo</a></p>
         </footer>
       </>

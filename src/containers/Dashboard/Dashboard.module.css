@@ -1,0 +1,11 @@
+.Box {
+  background: green;
+  border: 1px solid blue;
+  height: 95vh;
+}
+
+.Box2 {
+  background: blue;
+  border: 1px solid green;
+  height: 95vh;
+}
