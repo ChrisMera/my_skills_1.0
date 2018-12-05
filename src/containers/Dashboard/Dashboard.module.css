@@ -8,4 +8,5 @@
   background: blue;
   border: 1px solid green;
   height: 95vh;
+  overflow: auto;
 }

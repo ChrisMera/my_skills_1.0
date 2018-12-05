@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './App.module.css';
-// import Splash from './containers/Splash/Splash';
+import Splash from './containers/Splash/Splash';
 import Dashboard from './containers/Dashboard/Dashboard';
 
 class App extends Component {
@@ -12,7 +12,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Dashboard />
+        <Splash />
+        {/* <Dashboard /> */}
       </div>
     );
   }

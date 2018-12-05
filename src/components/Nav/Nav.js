@@ -9,6 +9,8 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
+
+import Logo from '../Logo/Logo';
 import styles from './Nav.module.css';
 
 class Navigation extends Component {
@@ -29,7 +31,9 @@ class Navigation extends Component {
     return (
       <>
         <Navbar className={styles.Nav} light expand="md">
-          <NavbarBrand href="/"><img alt='Logo' src={require('../../favicon-64.png')} /></NavbarBrand>
+          <NavbarBrand href="/">
+            <Logo />
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
