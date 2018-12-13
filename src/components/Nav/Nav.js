@@ -32,7 +32,7 @@ class Navigation extends Component {
       <>
         <Navbar className={styles.Nav} light expand="md">
           <NavbarBrand href="/">
-            <Logo />
+            {/* <Logo /> */}
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
