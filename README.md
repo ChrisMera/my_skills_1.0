@@ -39,4 +39,4 @@ This web application allows users to search their job experiences by keywords so
 
 ## Contributors:
 
-[Chris Mera] - UI/UX Design (https://github.com/ChrisMera)
+[Chris Mera] (https://github.com/ChrisMera)
