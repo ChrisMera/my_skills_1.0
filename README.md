@@ -11,6 +11,8 @@ This web application allows users to search their job experiences by keywords so
 
 ![Splash Page](public/assets/images/splash.png)
 
+![Splash Page Continued](public/assets/images/splash2.png)
+
 
 ## Tech Used:
 * Web Technologies & Frameworks:
