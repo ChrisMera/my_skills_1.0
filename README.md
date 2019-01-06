@@ -18,6 +18,8 @@ This web application allows users to search their job experiences by keywords so
 * Web Technologies & Frameworks:
     * React
     * Bootstrap/Reacstrap library
+    * Apollo
+    * GraphQL
     * CSS Modules
 
 * Scripts:
